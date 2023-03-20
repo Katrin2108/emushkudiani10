@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>emushkudiani10</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+        <link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css">
         <link rel="stylesheet" href="assets/css/style.css"/>
 
         <meta name="description" content="this page is about meta tags and forms"/>
@@ -15,7 +15,8 @@
         <header></header>
         <main></main>
         <footer>
-            <p>კონტაქტი</p>
+        <div class="left">
+            <h6>კონტაქტი</h6>
             <h1>
                 Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის 
                 უშინაარსო ტექსტია.იგი სტანდარტად 1500-იანი 
@@ -23,38 +24,42 @@
                 დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
             </h1>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11907.04155568261!2d44.78371205!3d41.7472609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ska!2sge!4v1679242333698!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
-             <div class="phone">
-                <img src="assets/images/Group 77.svg"  alt="phone">
-                 <p>+995 555 444 333</p>
+             <div class="phone-email">
+                <span><img class="ph" src="assets/images/Group 77.svg"  alt="phone">+995 555 444 333</span>
+                <span><img class="em" src="assets/images/Group 78.svg"  alt="email">example@gmail.com</span>
             </div>
-            <div class="email">
-                <img src="assets/images/Group 78.svg"  alt="email">
-                <p>example@gmail.com</p>
+                <h2>ყველა უფლება დაცულია</h2>
             </div>
-            <section class="form">
+            <div class="form">
                 <div class="conteiner">
                     <form action="/user" method="get">
-                    <div class="სახელი, გვარი"> 
-                        <label for="სახელი, გვარი">სახელი, გვარი</label>
-                        <input type="text" id="სახელი, გვარი" name="სახელი, გვარი" placeholder="სახელი, გვარი" required/>
+                    <div class="name"> 
+                        <label for="name"></label>
+                        <input type="text" id="name" name="name" placeholder="სახელი, გვარი" required/>
                     </div>
-                    <div class="ელ. ფოსტა">
-                        <label for="ელ. ფოსტა">ელ. ფოსტა</label>
-                        <input type="text" id="ელ. ფოსტა" name="ელ. ფოსტა" placeholder="ელ. ფოსტა" required/>
+                    <div class="email-user">
+                        <label for="email-user"></label>
+                        <input type="text" id="email-user" name="email-user" placeholder="ელ. ფოსტა" required/>
                     </div>
-                    <div class="ტელეფონის ნომერი">
-                        <label for="ტელეფონის ნომერი">ტელეფონის ნომერი</label>
-                        <input type="text" id="ტელეფონის ნომერი" name="ტელეფონის ნომერი" placeholder="ტელეფონის ნომერი" required/>
+                    <div class="phone-user">
+                        <label for="phone-user"></label>
+                        <input type="text" id="phone-user" name="phone-user" placeholder="ტელეფონის ნომერი" required/>
                     </div>
-                    <div class="შეტყობინება">
-                        <label for="შეტყობინება">შეტყობინება</label>
-                        <input type="text" id="შეტყობინება" name="შეტყობინება"  placeholder="შეტყობინება" required/>
+                    <div class="notification">
+                        <label for="notification"></label>
+                        <input type="text" id="notification" name="notification"  placeholder="შეტყობინება" required/>
                     </div>
-                        <button type="გაგზავნა">გაგზავნა</button>
+                        <button type="send">გაგზავნა</button>
                     </form>
                 </div>
-            </section>
-            <h2>ყველა უფლება დაცულია</h2>
+            <div class="botton-text">
+                <h3>დამზადებულია</h3>
+                <img src="assets/images/Group 73.svg"  alt="hurt">
+                <h4>-ით</h4>
+                <img src="assets/images/Group 72.png"  alt="logo">
+            </div>
+            </div>
+            
         </footer>
     </body>
 </html>
